@@ -5,22 +5,6 @@ p{
     font-style: unset;
 }
 
-header{
-    
-    height: 50px;
-    background: #140953; 
-    text-align: center;
-    font-family: "Helvetica";
-    font-style: italic;
-
-}
-header h3{
-   color: white; 
-   padding: 13px;
-   margin-top: 0px;
-}
-
-
 article{
     width: 80%;
     margin-left: auto;
@@ -75,9 +59,11 @@ article{
 a:link {
     color: black;
     text-decoration: underline;
+    font-weight: bold;
 }
 
 a:visited {
     color: black;
     text-decoration: underline;
+    font-weight: bold;
 }

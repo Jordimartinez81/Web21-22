@@ -1,14 +1,16 @@
+body {
+    background-color: #fcf9e5;
+   }
 header{ 
     height: 50px;
-    background: black;
+    background: sienna;
     border-radius: 15px; 
     text-align: center;
-    font-family: sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 header h1{
-   color: white; 
-   padding-top: 7px;
-   margin-top: 0px;
+   color:khaki; 
+   padding-top: 3px;
 }
 section {
     padding: 0 25 15 25;
@@ -18,41 +20,46 @@ section {
 section h2{
     padding-top: 15px;
     text-align: center;
-    font-family: sans-serif;
+    font-family: 'pt sans';
     color: sienna;
+    margin-bottom: 0;
 }
 img {
     border-radius: 15px;
     width: 100%;
     height: auto;
-    filter: saturate(0);
 }
 a:hover img {
-    filter: saturate(1);
+    filter: saturate(0);
 }
 .box{
     display: flex;
-    flex-wrap: row wrap;
+    flex-flow: row;
+    flex-wrap: wrap;
     justify-content: space-around;
     align-content: center;
     align-items: center;
 }
 .primeraytercera{
-    padding: 2vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    flex-grow: 1;
     min-width: 0;
     min-height: auto;
 }
 .segunda{
-    padding: 2vw;
-    flex-grow: 2;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    flex-grow: 1.6;
     min-width: 0;
     min-height: auto;
 }
 .h3Box{
     text-align: center;
-    font-family: sans-serif;
+    font-family: 'pt sans';
  }
 .h5Box{
     text-align: center;
-    font-family: sans-serif;
+    font-family: 'pt sans';
+    margin: 8px;
 }

@@ -1,27 +1,27 @@
 body {
-    background-color: #fcf9e5;
-   }
+    background: repeating-linear-gradient(-45deg, rgb(214, 214, 214), rgb(214, 214, 214), rgb(200, 200, 200) 5px, rgb(200, 200, 200) 10px);
+}
 header{ 
     height: 50px;
-    background: sienna;
+    background: rgb(0, 0, 0);
     border-radius: 15px; 
     text-align: center;
-    font-family: Verdana;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 header h1{
-   color:khaki; 
+   color:rgb(255, 255, 255); 
    padding-top: 3px;
 }
 section {
     padding: 0 25 15 25;
     border-radius: 15px;
-    background-color: khaki;
+    background-color: rgb(185, 185, 185);
 }
 section h2{
     padding-top: 15px;
     text-align: center;
     font-family: Verdana;
-    color: sienna;
+    color: rgb(0, 0, 0);
     margin-bottom: 0;
 }
 img {
@@ -57,9 +57,11 @@ a:hover img {
 .h3Box{
     text-align: center;
     font-family: Verdana;
+    color: rgb(37, 37, 37);
  }
 .h5Box{
     text-align: center;
     font-family: Verdana;
     margin: 8px;
+    color: rgb(37, 37, 37);
 }

@@ -6,7 +6,7 @@ header{
     background: sienna;
     border-radius: 15px; 
     text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana;
 }
 header h1{
    color:khaki; 
@@ -20,7 +20,7 @@ section {
 section h2{
     padding-top: 15px;
     text-align: center;
-    font-family: 'pt sans';
+    font-family: Verdana;
     color: sienna;
     margin-bottom: 0;
 }
@@ -56,10 +56,10 @@ a:hover img {
 }
 .h3Box{
     text-align: center;
-    font-family: 'pt sans';
+    font-family: Verdana;
  }
 .h5Box{
     text-align: center;
-    font-family: 'pt sans';
+    font-family: Verdana;
     margin: 8px;
 }

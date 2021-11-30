@@ -1,0 +1,54 @@
+body{
+    background-color: cadetblue;
+}
+.cajas{
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.cajas div{
+    width: 30%;
+    height: 300px;
+    overflow: auto;
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    border-width: 1px;
+    border-style: dashed;
+    border-color: black;
+}
+h1{
+    text-align: center;
+    color: white;
+}
+.caja1{
+    font-family: 'Comforter', cursive;
+}
+.caja2{
+    font-family: 'Great Vibes', cursive;
+}
+.caja3{
+    font-family: 'Josefin Sans', sans-serif;
+}
+.caja4{
+    font-family: 'Oswald', sans-serif;
+}
+.caja5{
+    font-family: 'Permanent Marker', cursive;
+}
+.caja6{
+    font-family: 'Playfair Display', serif;
+}
+.caja7{
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+.caja8{
+    font-family: 'Road Rage', cursive;
+}
+.caja9{
+    font-family: 'Roboto Mono', monospace;
+}

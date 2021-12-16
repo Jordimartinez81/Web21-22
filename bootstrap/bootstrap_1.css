@@ -1,0 +1,12 @@
+.container{
+    height: 100vh;
+}
+.row{
+    height: 100vh;
+}
+nav{
+    background-color: rgb(233, 98, 44);
+}
+section{
+    background-color: rgb(196, 199, 12);
+}

@@ -1,0 +1,52 @@
+header, main, div, footer{
+    box-sizing: border-box;
+    min-width: 50px;
+}
+header .row{
+    align-content: center;
+}
+.cajascabecera{
+    display: flex;
+    align-items: center;
+    height: 200px;
+}
+li{
+    list-style: none;
+}
+a{
+    color: green;
+    padding: 15px;
+}
+h1{
+    color: rgb(102, 102, 233);
+}
+button{
+    border-radius: 10px;
+    border-color: green;
+    background-color: white;
+}
+.botonEvernote{
+   margin: 15px;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+.card{
+    border: none;
+}
+.WebClipper{
+    padding-left: 25px;
+    padding-top: 15px;
+    font-weight: bold;
+}
+.card{
+    border: none;
+}
+.final{
+    padding-top: 50px;
+    text-align: center;
+}
+.video{
+    text-align: center;
+    padding: 15px;
+}

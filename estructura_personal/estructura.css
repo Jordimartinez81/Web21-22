@@ -1,0 +1,7 @@
+header, main, div, footer {
+    box-sizing: border-box;
+    border-color: rgb(255, 38, 0);
+    border-width: 1px;
+    border-style: double;
+    min-height: 50px;
+}

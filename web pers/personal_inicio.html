@@ -1,0 +1,110 @@
+<html lang="es">
+<head>
+    <title>JMM Diseño Gráfico</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="personal_inicio.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <script src="http://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g=" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+	    $( document ).ready(function() {
+	    $('#menu_on').click(function(){
+	    $('body').toggleClass('visible_menu');
+	    })
+	    });
+    </script>
+    <script>
+        $(document).ready(function() {
+            $("button").click(function() {
+                $("#cookies").hide();
+            });
+        });
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+<body>
+    <header class="container-fluid">
+        <div class="row">
+            <div class="col-4">
+                <div class="menu">
+                    <a href="#" id="menu_on">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </a>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="./personal_inicio.html">INICIO</a></li>
+                        <li><a href="./personal_servicios.html">SERVICIOS</a></li>
+                        <li><a href="./personal_trabajos.html">TRABAJOS</a></li>
+                        <li><a href="./personal_contacto.html">CONTACTO</a></li>
+                    </ul>
+                </nav>
+            </div>  
+            <div class="col-4">
+                <div class="logo">
+                    <a href="./personal_inicio.html"><img src="./logo.png" class="img-fluid"></a>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="nombre">
+                    Jordi Martínez
+                    <p>Diseñador gráfico</p>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="parrafos">
+                <div>
+                    <h1>DISEÑO CREATIVO</h1>
+                    <div class="texto">
+                        <p>Diseño y comunicación gráfica</p>
+                        <p>Soluciones de identidad, diseño editorial y branding</p>
+                        <p>Desarrollo de namings, web, campañas, espacios y fotografía</p>
+                    </div>
+                </div>
+                <br>
+                <div>
+                    <h1>VALORES</h1>
+                    <div class="texto">
+                        <p>Poner la creatividad y el diseño al servicio del cliente y de la estrategia</p>
+                        <p>para generar de forma positiva una comunidad para tu marca</p>
+                    </div>
+                </div>
+                <br>
+                <div>
+                    <h1>OBJETIVO</h1>
+                    <div class="texto">
+                        <p>Apostar por clientes comprometidos con su proyectos y defender</p>
+                        <p>un diseño efectivo, fresco y honesto basado en conceptos previos</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="container-fluid">
+        <div class="row">
+            <div class="imginicio">
+                <img src="./inicio.png">
+            </div>
+        </div>
+    </footer>
+    <div id="cookies">
+        <h2>¡Hola! Soy el monstruo de las galletas (...eso de las cookies)</h2>
+        <img src="./cookies.png" class="imgcookies">
+        <p> La Ley 34/2002 nos obliga a avisarle de que usamos cookies propies y de terceros (ni de cuartos ni de quintos)
+            con objetivos estadísticos y de sesión y para mmostrarle la 'publi' que nos da de comer. Tenemos una política de
+            cookies majísima y bla bla bla. Si continuas navegando, asumimos que aceptas y que todo guay. Si no te parece bien,
+            huye y vuelve por donde has venido, que nadie te obliga a entrar aquí.
+        </p>
+        <button>Cerrar y aceptar</button>
+    </div>
+</body>
+</html>

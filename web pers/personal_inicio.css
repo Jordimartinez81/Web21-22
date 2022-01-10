@@ -1,0 +1,158 @@
+body{
+    font-family: 'Montserrat';
+    background-color: rgba(218, 210, 199, 1);
+}
+header{
+    background-color: rgba(90, 128, 128, 1);
+    height: 80px;
+}
+.menu{
+    padding-left: 15px;
+    padding-top: 28px;
+}
+#menu_on{
+	display: inline-block;
+	width:30px;
+	height: 20px;
+	position: relative;
+	z-index: 2;
+} 
+#menu_on span{
+	width: 100%;
+	height: 4px;
+	border-radius: 4px;
+	display: block;
+	position: absolute;
+	background: rgba(30, 62, 87, 1);
+	transition: all 0.25s ease;
+	transform-origin : 0px 100%;
+} 
+#menu_on span:nth-child(2){
+	top: calc(50% - 2px);
+} 
+#menu_on span:nth-child(3){
+bottom: 0;
+}
+ul{
+	list-style: none;
+}
+nav{
+	color: rgba(30, 62, 87, 1);
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left:-300px;
+	width: 300px;
+	z-index: 1;
+	padding: 90px 0px 0px 0px;
+	background: rgba(202, 194, 184, 1);
+	opacity: 0;
+	transition: all 0.75s ease;
+	font-size: 1.2em;
+	overflow-y: auto;
+}
+nav a{
+    font-family: 'Montserrat';
+    font-size: 28px;
+	display:block;
+	text-decoration: none;
+	color: rgba(30, 62, 87, 1);
+	transition: all ease 0.25s;
+} 
+nav a:hover{
+	background-color: rgba(229, 194, 61, 1);
+	text-decoration: none;
+}
+.visible_menu span:nth-child(1){
+	transform: rotate(45deg) translate(-2px,1px); 
+} 
+.visible_menu span:nth-child(2){
+	opacity: 0;
+} 
+.visible_menu span:nth-child(3){
+	transform: rotate(-45deg) translate(-3px,3px); 
+}
+.visible_menu nav{
+	left: 0;
+	opacity: 1;
+}
+.visible_menu #content{
+    transform: translateX(260px);
+}
+.logo{
+    transition: transform .2s;
+    text-align: center;
+    padding-top: 12px;
+}
+.logo:hover{
+    transform: scale(1.5);
+}
+.nombre{
+    font-family: 'Montserrat';
+    color: rgba(30, 62, 87, 1);
+    padding-top: 15px;
+    text-align: end;
+}
+.parrafos{
+    padding: 80 0 0 400;
+}
+h1{
+    transition: transform .2s;
+    font-family: 'Montserrat';
+    color: rgba(30, 62, 87, 1);
+}
+h1:hover{
+    transform: scale(1.2);
+}
+.texto{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 26px;
+    color: rgba(90, 128, 128, 1);
+    line-height: 14px;
+    padding-left: 80px;
+    transition: transform .2s;
+}
+.texto:hover{
+    transform: scale(1.1);
+}
+.imginicio{
+    transition: transform .2s;
+    display: block;
+    margin: auto;
+	padding-right: 240px;
+    padding-top: 80px;
+}
+.imginicio:hover{
+    transform: scale(1.2);
+}
+#cookies{
+	text-align: center;
+	background-color: rgba(90, 128, 128, 1);
+	border-radius: 15px;
+    height: 420px;
+    width: 750px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+	color: rgba(30, 62, 87, 1);
+}
+h2{
+	padding-top: 15;
+	padding-right: 80;
+	padding-left: 80;
+}
+#cookies p{
+	font-size: 12px;
+	color: rgba(202, 194, 184, 1);
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 15px;
+}
+.imgcookies{
+	padding-top: 15;
+	max-width: 100px;
+}
+button{
+	background-color: rgba(30, 62, 87, 1);
+	color: rgba(202, 194, 184, 1);
+}

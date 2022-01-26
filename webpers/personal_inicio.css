@@ -5,7 +5,6 @@ body{
 header{
     background-color: rgba(90, 128, 128, 1);
     height: 80px;
-    max-width: 1920px;
 }
 .menu{
     padding-left: 15px;
@@ -94,11 +93,8 @@ nav a:hover{
     padding-top: 15px;
     text-align: end;
 }
-.parrafo{
-    padding: 80 0 0 400;
-}
 .parrafos{
-    padding: 50 0 0 400;
+    padding: 80 0 0 400;
 }
 h1{
     transition: transform .2s;
@@ -114,28 +110,96 @@ h1:hover{
     color: rgba(90, 128, 128, 1);
     line-height: 14px;
     padding-left: 80px;
-    transition: transform .2s;
 }
-.texto:hover{
-    transform: scale(1.1);
-}
-.imagenes{
-    max-width: 100%;
-    max-height: 253px;
-    padding-top: 30;
+.imginicio{
     display: block;
-    margin-right: auto;
-    margin-left: auto;
-    transition: transform .2s;
+    margin: auto;
+	padding: 80 0 0 380;
 }
-.imagenes:hover{
-    transform: scale(1.1);
+#cookies{
+	text-align: center;
+	background-color: rgba(90, 128, 128, 1);
+	border-radius: 15px;
+    height: 420px;
+    width: 750px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+	color: rgba(30, 62, 87, 1);
 }
-.carousel-item {
-    padding-top: 25px;
-    text-align: center;
+h2{
+	padding-top: 15;
+	padding-right: 80;
+	padding-left: 80;
 }
-.carousel-inner img {
-    width: auto;
-    max-height: 400px;
+#cookies p{
+	font-size: 12px;
+	color: rgba(202, 194, 184, 1);
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 15px;
 }
+.imgcookies{
+	padding-top: 15;
+	max-width: 100px;
+}
+button{
+	background-color: rgba(30, 62, 87, 1);
+	color: rgba(202, 194, 184, 1);
+}
+.ir-arriba{
+	display:none;
+	padding:20px;
+	background:#024959;
+	font-size:20px;
+	color:#fff;
+	cursor:pointer;
+	position: fixed;
+	bottom:20px;
+	right:20px;
+}
+@media (max-width: 574px) {
+	.logo{
+		text-align: center;
+		padding-top: 12px;
+	}
+	.logo:hover{
+		transform: none;
+	}
+	.parrafos{
+		padding: 15 15 15 15;
+	}
+	.texto{
+		font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+		font-size: 26px;
+		color: rgba(90, 128, 128, 1);
+		line-height: 30px;
+		padding-left: 80px;
+	}
+	#cookies{
+		text-align: center;
+		background-color: rgba(90, 128, 128, 1);
+		border-radius: 15px;
+		height: auto;
+		width: auto;
+		position: fixed;
+		bottom: 0;
+		left: 0;
+		color: rgba(30, 62, 87, 1);
+	}
+	h1{
+
+		font-family: 'Montserrat';
+		color: rgba(30, 62, 87, 1);
+	}
+	h1:hover{
+		transform: none;
+	}
+	.texto{
+		font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+		font-size: 26px;
+		color: rgba(90, 128, 128, 1);
+		line-height: 30px;
+		padding-left: 80px;
+	}
+}	

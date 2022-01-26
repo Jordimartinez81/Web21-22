@@ -25,8 +25,11 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="./ir-arriba.js"></script>
 </head>
 <body>
+    <span class="ir-arriba">^</span>
     <header class="container-fluid">
         <div class="row">
             <div class="col-4">
@@ -51,7 +54,7 @@
                     <a href="./personal_inicio.html"><img src="./logo.png" class="img-fluid"></a>
                 </div>
             </div>
-            <div class="col-4">
+            <div class="col-4 d-none d-sm-block">
                 <div class="nombre">
                     Jordi Martínez
                     <p>Diseñador gráfico</p>
@@ -91,16 +94,18 @@
     </div>
     <footer class="container-fluid">
         <div class="row">
-            <div class="imginicio">
-                <img src="./inicio.png">
-            </div>
+            <div class="d-none d-sm-block">
+                <div class="imginicio">
+                    <img src="./inicio.png">
+                </div>
+            </div>    
         </div>
     </footer>
     <div id="cookies">
         <h2>¡Hola! Soy el monstruo de las galletas (...eso de las cookies)</h2>
         <img src="./cookies.png" class="imgcookies">
         <p> La Ley 34/2002 nos obliga a avisarle de que usamos cookies propies y de terceros (ni de cuartos ni de quintos)
-            con objetivos estadísticos y de sesión y para mmostrarle la 'publi' que nos da de comer. Tenemos una política de
+            con objetivos estadísticos y de sesión y para mostrarle la 'publi' que nos da de comer. Tenemos una política de
             cookies majísima y bla bla bla. Si continuas navegando, asumimos que aceptas y que todo guay. Si no te parece bien,
             huye y vuelve por donde has venido, que nadie te obliga a entrar aquí.
         </p>

@@ -114,10 +114,6 @@ h1:hover{
     color: rgba(90, 128, 128, 1);
     line-height: 14px;
     padding-left: 80px;
-    transition: transform .2s;
-}
-.texto:hover{
-    transform: scale(1.1);
 }
 .imagenes{
     max-width: 100%;
@@ -126,8 +122,51 @@ h1:hover{
     display: block;
     margin-right: auto;
     margin-left: auto;
-    transition: transform .2s;
 }
-.imagenes:hover{
-    transform: scale(1.1);
+.ir-arriba{
+	display:none;
+	padding:20px;
+	background:#024959;
+	font-size:20px;
+	color:#fff;
+	cursor:pointer;
+	position: fixed;
+	bottom:20px;
+	right:20px;
+}
+@media (max-width: 574px) {
+    .parrafos{
+		padding: 15 15 15 15;
+	}
+    .parrafo{
+        padding: 15 15 15 15;
+    }
+	.texto{
+		font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+		font-size: 26px;
+		color: rgba(90, 128, 128, 1);
+		line-height: 30px;
+		padding-left: 80px;
+	}
+	h1{
+		font-family: 'Montserrat';
+		color: rgba(30, 62, 87, 1);
+	}
+	h1:hover{
+		transform: none;
+	}
+	.logo{
+		text-align: center;
+		padding-top: 12px;
+	}
+	.logo:hover{
+		transform: none;
+	}
+	.texto{
+		font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+		font-size: 26px;
+		color: rgba(90, 128, 128, 1);
+		line-height: 30px;
+		padding-left: 80px;
+	}
 }
